@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="book1">
+                <label for="">Computer</label>
+                <input type="number" id="bookOne" placeholder="Marks">
+            </div>
+            <div class="book2">
+                <label for="">English</label>
+                <input type="number" id="bookTwo" placeholder="Marks">
+            </div>
+            <div class="book3">
+                <label for="">Maths</label>
+                <input type="number" id="bookThree" placeholder="Marks">
+            </div>
+            <div class="book4">
+                <label for="">Chemistry</label>
+                <input type="number" id="bookFour" placeholder="Marks">
+            </div>
+            <div class="book5">
+                <label for="">Physics</label>
+                <input type="number" id="bookFive" placeholder="Marks">
+            </div>
+            
+            <div>
+                <button onclick="calculate()">Calculate</button>
+            </div>
+        </div>
+        <table>
+            <tr>
+                <td>Total Marks:</td>
+                <td>500</td>
+            </tr>
+            <tr>
+                <td>Obtained Marks:</td>
+                <td id="obtain"></td>
+            </tr>
+            <tr>
+                <td>Percentage:</td>
+                <td id="percentage"></td>
+            </tr>
+            <tr>
+                <td>Grade:</td>
+                <td id="grade"></td>
+            </tr>
+            <tr>
+                <td>Remarks:</td>
+                <td id="remarks"></td>
+            </tr>
+            
+        </table>
+    </div>
+    <script src="app.js "></script>
+</body>
+</html>
